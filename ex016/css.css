@@ -1,0 +1,27 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+div > p {
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+    color: red;
+}
+
+a{
+    color: aqua;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    background-color: brown;
+}
+
+a:active{
+    color: crimson;
+}
