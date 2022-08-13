@@ -5,17 +5,18 @@
     padding: 0px;
 }
 body {
-    background-color: #1D7373;
+    background-color: #C9DBBA;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-attachment: fixed;
     
 }
 
 nav {
-    background-color: #0A3A40;
+    background-color: #c9dbba;
     height: 50px;
     padding: 5px;
     padding-top: 30px;
+    box-shadow:  0px 0px 5px #9dac92;
 }
 
 nav > a {
@@ -35,15 +36,20 @@ nav > a:hover {
 
 
 main{
-    background-color:#0F5959;
+    background-color: #c9dbba;
     max-width: 900px;
     min-width: 290px;
     margin: auto;
     padding: 10px;
     text-align: justify;
+    box-shadow: 0px 0px 5px #9dac92;
+    border-radius: 5px 5px;
+}
+main h1 {
+    font-weight: bolder;
 }
 
-p {
+main p {
     margin: 15px 0px;
 }
 img {
@@ -82,6 +88,18 @@ aside ul {
 footer {
     background-color:rgba(0, 0, 0, 0.418);
     text-align: center;
+}
+
+footer p {
+    box-shadow: 0px 0px 5px #9dac92;
+    padding: 20px;
+    text-decoration: none;
+    color: #04171a;
+}
+
+footer a {
+    text-decoration: none;
+    color:#23bebe;
 }
 
 div {
